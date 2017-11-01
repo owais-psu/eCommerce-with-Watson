@@ -19,16 +19,16 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // define personality insights
 var personality_insights = watson.personality_insights({
-  username: 'Your username',
-  password: 'Your password',
+  username: '61e06f69-9e66-4fc3-a75a-81363d381739',
+  password: '8DRptrWO78rW',
   version_date:'2016-10-19',
   version: 'v3'
 });
 
 // define twitter helper
 var Twithelper = new Twit({
-  consumer_key: 'Your key',
-  consumer_secret: 'Your secret',
+  consumer_key: 'WGDrWLUMAg69et5YqE0IuVYwo',
+  consumer_secret: 'AJsotzESID1U8ladGgND2FctqszIkABLLTRNTUh6BK5m3OoY7o',
   app_only_auth: true
 })
 
